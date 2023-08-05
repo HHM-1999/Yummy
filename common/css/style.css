@@ -132,14 +132,14 @@ a {
   position: relative;
 }
 .aboutus-area .videoicon {
-  position: absolute;
-  top: 38em;
-  left: 67%;
-  color: #cc0000;
-  border: 2px solid #cc0000;
-  border-radius: 50%;
-  padding: 18px;
-  font-size: 22px;
+	position: absolute;
+	top: 40em;
+	left: 69%;
+	color: #cc0000;
+	border: 2px solid #cc0000;
+	border-radius: 50%;
+	padding: 18px;
+	font-size: 22px;
 }
 /* why choose */
 .choose {
@@ -176,9 +176,9 @@ a {
 }
 
 .count {
-  position: absolute;
-  top: 92em;
-  left: 118px;
+	position: absolute;
+	top: 367%;
+	left: 50px;
 }
 .count .counter-box {
   color: #979692;
@@ -209,7 +209,7 @@ a {
   color: #cc0000;
 }
 .menu-list {
-  padding: 5px 270px;
+	padding: 5px 360px;
 }
 .menu-list h3 {
   font-size: 14px;
