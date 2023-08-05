@@ -177,7 +177,7 @@ a {
 
 .count {
 	position: absolute;
-	top: 367%;
+	top: 234%;
 	left: 50px;
 }
 .count .counter-box {
@@ -185,7 +185,7 @@ a {
 }
 .count .counter-box h5 {
   font-size: 40px;
-  color: #fff;
+  color: #000;
   font-weight: 600;
 }
 /* MENU */
@@ -253,6 +253,7 @@ a {
 /* galary */
 .galary {
   padding-top: 30px;
+  padding-bottom: 15px;
 }
 .galary-area {
   padding-top: 30px;
@@ -295,4 +296,38 @@ a {
   top: 200em;
   left: 910px;
   color: #fff;
+}
+/* footer start */
+.footer-area{
+  background-color: #000;
+  color: #fff;
+  padding-top: 30px;
+
+}
+.footer-area h3{
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -.3;
+ 
+
+}
+.footer-area h3 i{
+  font-size: 16px;
+  font-weight: 600;
+
+}
+.footer-area h4 {
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: -.3;
+	line-height: 1.5;
+	margin: 0 15px 10px;
+}
+.footer-end{
+  border-top: 1px solid #979692;
+
+}
+.footer-end h4{
+  text-align: center;
+  padding: 10px 10px;
 }
