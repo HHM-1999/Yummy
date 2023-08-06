@@ -25,8 +25,36 @@ valueDisplay.forEach((valueDisplay) => {
 $('.center').slick({
     centerMode: true,
     dots: true,
-    centerPadding: '70px',
-    slidesToShow: 5,
+    centerPadding: '0px',
+    slidesToShow: 4,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 4
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 4
+            }
+        }
+    ]
+});
+
+///event
+$('.responsive').slick({
+    centerMode: true,
+    dots: true,
+    centerPadding: '0px',
+    slidesToShow: 3,
     responsive: [
         {
             breakpoint: 768,
@@ -49,11 +77,12 @@ $('.center').slick({
     ]
 });
 
-///event
-$('.responsive').slick({
+//testimonial
+$('.test').slick({
     centerMode: true,
     dots: true,
-    slidesToShow: 3,
+    centerPadding: '0px',
+    slidesToShow: 1,
     responsive: [
         {
             breakpoint: 768,
