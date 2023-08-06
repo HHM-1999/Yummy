@@ -13,6 +13,12 @@ a {
   color: #cc0000;
   font-size: 22px;
 }
+.nav-link.active {
+  text-decoration: 2px underline #cc0000;
+}
+.nav-link {
+  text-decoration: none;
+}
 .nav-item {
   padding: 0 8px;
 }
@@ -227,11 +233,11 @@ a {
 .menu-list h3 {
   font-size: 14px;
 }
-.nav-link.active {
+.menu-list .nav-link.active {
   color: #cc0000;
   text-decoration: 2px underline #cc0000;
 }
-.nav-link {
+.menu-list .nav-link {
   color: #979692;
   text-decoration: 2px underline #979692;
 }
