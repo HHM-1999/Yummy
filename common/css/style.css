@@ -32,7 +32,8 @@ a {
   margin-left: 130px;
 }
 .bookbtn {
-  margin-left: 198px;
+  justify-content: end;
+  margin-left: 183px;
 }
 .navbar-brand {
   margin-left: -12px;
@@ -43,12 +44,11 @@ a {
 .dropdown {
   text-decoration: none;
 }
-.dropdown-menu{
+.dropdown-menu {
   border-radius: 0;
   background-color: #cc0000;
   padding-top: 0;
   padding-bottom: 0;
-
 }
 .dropdown:hover .dropdown-menu {
   display: block;
@@ -69,9 +69,9 @@ a {
 }
 /* main start */
 /* hero section */
-.main-img img{
-      height: 450px;
-    padding-left: 130px;
+.main-img img {
+  height: 450px;
+  padding-left: 130px;
 }
 .heropart {
   padding-top: 30px;
@@ -130,16 +130,13 @@ a {
   position: relative;
 }
 .about-img {
-	position: absolute;
-	padding-top: 285%;
-	padding-left: 60px;
+  position: absolute;
+  margin-top: 275%;
+  margin-left: 100px;
 }
 .img-area {
-
-
-  left: 199px;
   background-color: #fff;
-  padding: 18px 150px;
+  padding: 28px 110px;
 }
 .img-area h4 {
   font-size: 16px;
@@ -202,6 +199,43 @@ a {
   background-color: #cc0000;
   color: #fff;
 }
+
+.choose-card {
+  padding: 20px 30px;
+}
+.choose-card i {
+  font-size: 14px;
+  color: #cc0000;
+  background-color: #e5947b;
+  border-radius: 50%;
+  padding: 15px 15px;
+}
+.choose-card .choose-icon {
+  justify-content: center;
+  margin-left: 66px;
+  padding: 10px;
+}
+.choose-card h3 {
+  font-size: 27px;
+  font-weight: 600;
+}
+.choose-card p {
+  font-size: 12px;
+}
+.choose-btn {
+  padding: 0px 22px;
+  margin-left: 12%;
+}
+.choose-btn button {
+  border-radius: 30px;
+  padding: 10px 10px;
+  color: #fff;
+  background-color: #e5947b;
+  font-size: 14px;
+  margin-left: -2px;
+  border: none;
+  text-align: center;
+}
 /*  counter */
 .counter-section {
   padding-top: 15px;
@@ -249,7 +283,7 @@ a {
   color: #cc0000;
 }
 .menu-list {
- margin: 0 350px;
+  margin: 0 350px;
 }
 .menu-list h3 {
   font-size: 14px;
@@ -305,8 +339,8 @@ a {
 
 /* testimonial */
 .testimonial {
-  padding-top:15px;
-  padding-bottom:15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: #f4f4f4;
 }
 .testi-icon {
@@ -367,31 +401,31 @@ a {
   position: relative;
 }
 .event .card-details-1 {
-	position: absolute;
-	top: 0px;
-	left: 0;
-	right: 0;
-	padding-top: 78%;
-	margin-left: 52px;
-	color: #fff;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  padding-top: 78%;
+  margin-left: 52px;
+  color: #fff;
 }
 .event .card-details-2 {
-	position: absolute;
-	top: 0;
-	left: 0;
-	color: #fff;
-	right: 0;
-	padding-top: 78%;
-	margin-left: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  right: 0;
+  padding-top: 78%;
+  margin-left: 50px;
 }
 .event .card-details-3 {
-	position: absolute;
-	top: 0;
-	left: 0;
-	color: #fff;
-	right: 0;
-	padding-top: 78%;
-	margin-left: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  right: 0;
+  padding-top: 78%;
+  margin-left: 80px;
 }
 /* chefs */
 .chefs {
@@ -404,6 +438,15 @@ a {
   border-radius: 0;
   padding: 0;
   margin: 0;
+}
+.card-body h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.card-body p {
+  font-size: 14px;
+  color: #979692;
+  line-height: 1.5;
 }
 /* BOOK A TABLE */
 .book-table {
@@ -528,4 +571,26 @@ a {
 .footer-end h4 {
   text-align: center;
   padding: 10px 10px;
+}
+footer .round-btn a {
+  padding: 0 0 0 9px;
+  background-color: transparent;
+  color: #ccc;
+  font-size: 12px;
+  text-decoration: none;
+}
+footer li {
+  list-style: none;
+}
+
+footer .round-btn {
+  box-shadow: 2px 2px 5px 0px #ccc !important;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+}
+
+footer .round-btn {
+  margin: 12px 2px;
 }
